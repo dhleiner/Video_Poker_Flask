@@ -169,8 +169,9 @@ def calculate():
     payout=1
   
  
+ 
 
-  winnings=bet*payout
+  winnings=bet*payout*0.25
   print(handRank)
   print("Bet:",bet)
   print("You win:",winnings)
